@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+</head>
+<body class="container-lg mx-auto">
+    <div class="word">
+        <h1 class="display-2 fw-semibold text-center">Write your <span class="text-info fw-bold">Future</span></h1>
+        <div class="border border-5 border-info bg-dark">
+            <div class="d-flex justify-content-around py-3 bg-dark md:w-75">
+                <div class="font-styles">
+                    <button class="btn btn-info text-white fw-bold" id="bold">B</button>
+                    <button class="btn btn-info text-white fw-bold" id="italic">I</button>
+                    <button class="btn btn-info text-white fw-bold" id="underline">U</button>
+                </div>
+                <div class="align">
+                    <button class="btn btn-info text-white fw-bold" id="left">L</button>
+                    <button class="btn btn-info text-white fw-bold" id="center">C</button>
+                    <button class="btn btn-info text-white fw-bold" id="right">R</button>
+                </div>
+                <div class="font-size">
+                    <input id="fontSize" class="w-25 border border-info outline-0" type="number" value="16" min="1">
+                    <button class="btn btn-secondary text-white fw-bold">Aa</button>
+                </div>
+                
+            </div>
+            <div class="">
+                <textarea class="w-100 p-4 border-0" style="outline: 0; font-size: 16px;" name="" id="textarea" rows="20"></textarea>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/word.js"></script>
+</body>
+</html>
